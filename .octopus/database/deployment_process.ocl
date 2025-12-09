@@ -4,7 +4,7 @@ process_template "run-a-process-template" {
     version_mask = "3.X"
 
     package_parameter "parameter.database.package" {
-        feed = "github-container-registry"
+        feed = "octopus-server-built-in"
         package_id = "eddiewong01/octopus-workshop-instruqt-argo"
     }
 
